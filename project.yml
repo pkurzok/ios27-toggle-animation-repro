@@ -1,0 +1,16 @@
+name: ReproApp
+options:
+  bundleIdPrefix: de.peterkurzok
+  deploymentTarget:
+    iOS: "17.0"
+targets:
+  ReproApp:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.peterkurzok.ReproApp
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
