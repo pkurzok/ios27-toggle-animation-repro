@@ -1,5 +1,8 @@
 # iOS 27: `Toggle` drops the transaction from `Binding.animation(_:)`
 
+> **Fixed in iOS 27.2 beta 1** (FB24396602). The rest of this README describes the original
+> iOS 27.0 behaviour and is kept for reference; this repository is archived.
+
 A minimal SwiftUI repro for a regression in iOS 27.0 (simulator build `24A5408d`).
 
 A state write initiated by a `Toggle` bound with `Binding.animation(_:)` no longer carries its
